@@ -1,6 +1,6 @@
 # Build a Personal Portfolio Webpage
 
-The [Build a Personal Portfolio Webpage](https://feldbot.github.io/fcc-tribute/) project is a part of Free Code Camp's Legacy Front End Development certificate curriculum. The one-page website showcases the required projects for certification, while demonstrating proficiency with standard web technologies.
+The [Build a Personal Portfolio Webpage](https://feldbot.github.io/fcc-portfolio/) project is a part of Free Code Camp's Legacy Front End Development certificate curriculum. The one-page website showcases the required projects for certification while demonstrating proficiency with standard web technologies.
 
 ## Built With
 
@@ -15,5 +15,5 @@ Download or clone the repository and open the index.html file to view locally. A
 
 ## Author
 
-* **Daniel Feldman** - *Initial work* - [freeCodeCamp Portfolio](https://feldbot.github.io/fcc-portfolio/)
+* **Daniel Feldman** - *Initial work* 
 * Feel free to [contact me](mailto:feldbot@gmail.com) with any comments or questions
