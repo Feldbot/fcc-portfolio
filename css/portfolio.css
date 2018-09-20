@@ -1,0 +1,126 @@
+/* Bootstrap album example page styles */
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+  margin: 1em 0 0 0;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+/* Custom styles */
+.bg-dark, body {
+  background-color: #006400 !important;
+}
+a {
+  color: #555555;
+}
+a:hover {
+  color: #006400;
+  text-decoration: none;
+}
+.highlight:hover {
+  color: #FFEE18 !important;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.about-img {
+  float: left;
+  width: 125px;
+  height: 125px;
+  margin-right: 25px;
+  border-radius: 50%;
+  border: 1px solid #FFF;
+  box-shadow: 7px 7px 22px rgba(0,42,0,.7);
+}
+.about-intro {
+  letter-spacing: .025em;
+  line-height: 1.7em;
+  color: #FFF !important;
+}
+.about-intro a {
+  color: lightgrey !important;
+  text-decoration: underline;
+}
+.about-intro a:hover {
+  color: #FFEE18 !important;
+}
+.navbar-brand {
+  font-family: 'Pacifico';
+  font-size: 1.75em;
+  margin: 5px;
+  padding: 0;
+}
+.text-muted {
+  color: lightgrey !important;
+}
+.text-muted-intro {
+  color: #6c757d;
+  margin: 1em 0 0 0;
+}
+.fcc-logo {
+  margin: -1em 0 0 0;
+}
+.card {
+  border: 1px solid #006400;
+}
+.card:hover {
+  -webkit-box-shadow: -1px 10px 40px -12px rgb(0,0,0) !important;
+  -moz-box-shadow: -1px 10px 40px -12px rgb(0,0,0) !important;
+  box-shadow: -1px 10px 40px -12px rgb(0,0,0) !important;
+}
+.card-body {
+  border-top: 1px solid #006400;
+  background-color: #E0E0E0;
+}
+.album {
+  margin: -2em 0 0 0;
+  background-color: #939393;
+}
+.btn-outline-secondary {
+  background-color: #FFF;
+}
+.btn-outline-secondary:hover {
+  color: #FFF;
+  background-color: #006400;
+  border-color: #006400;
+  border-top-color: #006400;
+  border-right-color: #006400;
+  border-bottom-color: #006400;
+  border-left-color: #006400;
+}
+footer p,
+footer a {
+  color: #FFF;
+}
